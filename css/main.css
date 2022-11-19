@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding-top: 10px;
+    background: #E5E5E5;
+
+
+}
+
+.corpo .evento-um {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1047px;
+    height: 173px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.corpo .evento-um .data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    background: #ECEFF8;
+    border-radius: 10px;
+
+    width: 142px;
+    height: 123px;
+
+
+}
+
+.corpo .evento-um .data p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+
+    text-transform: uppercase;
+
+    color: #1B2442;
+}
+
+.corpo .evento-um .data h3 {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    text-transform: uppercase;
+
+    color: #1B2442;
+}
+
+.corpo .evento-um .informacao-evento {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.corpo .evento-um .informacao-evento h2 {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 33px;
+
+    color: #1B2442;
+}
+
+.corpo .evento-um .informacao-evento p {
+    width: 524px;
+    height: 46px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #000000;
+    word-wrap: break-word;
+}
+
+.corpo .evento-um button {
+    width: 173px;
+    height: 54px;
+
+    border-radius: 15px;
+}
+
+.corpo  h1 {
+
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 45px;
+
+    color: #1B2442;
+
+}
